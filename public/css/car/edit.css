@@ -1,0 +1,17 @@
+.scroll-select {
+    width: 190px;
+    height: 160px; 
+    font-size: 17px;
+
+}
+
+.card{
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 40px;
+    margin-left: 290px;
+    height: 500px;
+    border-radius: 10px;
+    /* border: solid 2px yellow; */
+}

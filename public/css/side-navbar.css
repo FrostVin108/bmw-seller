@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin:0;
+}
+
+.conten-control{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-navbar{
+    margin-top: 0;
+    background-color: #192320;
+    width: 205px;
+    left: 100;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 23px;
+    height: 100vh;
+    position: fixed;
+    /* margin-left: 1100px; */
+}
+
+.buyer-car-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: solid 2px yellow; */
+    /* background-color: black; */
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.left-center{
+    display: flex;
+    align-items: center;
+}
+
+.buyer-icon{
+    font-size: 23px;
+    padding-left: 10px;
+    transition: 0.1s;
+    color: white;
+    height: 50px;
+    text-decoration: none;
+}
+
+.buyer-icon:hover{
+    background-color: #2e3b37;
+
+    border-radius: 3px;
+    color: white;
+}

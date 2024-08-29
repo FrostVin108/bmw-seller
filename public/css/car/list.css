@@ -1,0 +1,99 @@
+.card{ 
+    /* position: fixed; */
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    padding-bottom: 200px;
+    margin: 40px;
+    margin-left: 290px;
+    height: auto ;
+    border-radius: 10px;
+    /* border: solid 2px yellow; */
+}
+
+.table{
+    width: 100px;
+    gap: 30px;
+    inline-size: 780px;
+    height: 100%;
+    font-size: 18px;
+}
+
+thead{
+    height: 40px;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.car-year{
+    width: 170px;
+    text-align: center;
+}
+
+.btn-delete{
+    background-color: #a60c0f;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    width: 70px;
+    transition: 0.3s;
+}
+
+.btn-delete:hover{
+    background-color: #ef3236;
+}
+
+.btn-edit{
+    background-color: #0182b2;
+    border: none;
+    padding:6.7px 11px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;      
+}
+
+.btn-edit:hover{
+    background-color: #01b0f1;
+}
+
+.action{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100px;
+    margin-left: 44px;
+    /* margin-right: -10px; */
+}
+
+.center-create{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+    width: 40%;
+}
+
+.btn-create{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.btn-create:hover{
+    font-size: 23px;
+    text-decoration: underline;
+}
