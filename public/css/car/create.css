@@ -1,0 +1,121 @@
+
+.card{
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 40px;
+    margin-top: 70px;
+    margin-left: 290px;
+    height: 400px;
+    border-radius: 10px;
+    
+    /* border: solid 2px yellow; */
+}
+
+
+.create-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column;;
+    gap: 14px;
+    height: 250px;
+    margin-left: 30px;
+    /* border: solid 2px yellow; */
+}
+
+.car-year{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.car-style{
+    font-size: 25px;
+}
+
+.car-style-input{
+    width: 320px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.year-style{
+    font-size: 25px;
+}
+
+.year-style-input{
+    width: 320px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.btn-submit{
+    background-color: rgba(63,63,149);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn-submit:hover{
+    background-color: rgb(93, 93, 216);
+}
+
+.btn-return{
+    background-color: rgba(63,63,149);
+    border: none;
+    padding: 5px 20px 9px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn-return:hover{
+    background-color: rgb(93, 93, 216);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner{
+    color: white;
+    background-color: rgb(50,50,50);
+    height: 70px;
+    margin-top: 25px;
+    margin-left: -34px;
+    width: 768px;
+    border-radius: 5px;
+
+    /* display: flex;
+    align-items: center;
+    flex-direction: row;
+    row-gap: 10px; */
+}
+
+div > i{
+    font-size: 12px;
+    margin-top: 80px;
+    margin-left: 10px;
+}

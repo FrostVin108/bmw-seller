@@ -49,6 +49,7 @@
                         
                         <div class="button-position">
                             <button type="submit" class="btn-submit">Submit</button>
+                            <button type="reset" class="btn-reset">Reset</button>
                             <a class="btn-return" href="{{ route('buyer.list')}}">Return</a>
                         </div>  
                     </div>
